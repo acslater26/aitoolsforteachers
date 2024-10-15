@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A curated list of AI tools for teachers to enhance learning in all curriculum subjects.">
+    <title>AI Resources for Teachers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #333;
+        }
+        .subject {
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        ul li a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        .search-bar {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .search-bar input {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .reviews {
+            margin-top: 50px;
+        }
+        .review-form input,
+        .review-form textarea {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .review-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        .review-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Tools for Teachers</h1>
+        <p>Discover AI tools across all subjects that can assist in the classroom. Free and paid options included.</p>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search AI tools by subject or keyword..." onkeyup="searchTools()">
+        </div>
+    </header>
+
+    <section id="ai-tools">
+        <!-- Mathematics Section -->
+        <div class="subject" data-subject="Mathematics">
+            <h2>Mathematics</h2>
+            <ul>
+                <li>
+                    <a href="https://www.wolframalpha.com/" target="_blank">Wolfram Alpha</a> (Free & Paid) - Computational knowledge engine that solves math problems, visualizes data, and offers step-by-step solutions.
+                </li>
+                <li>
+                    <a href="https://photomath.com/" target="_blank">Photomath</a> (Free & Paid) - A tool for scanning and solving mathematical problems instantly.
+                </li>
+                <li>
+                    <a href="https://www.mathway.com/" target="_blank">Mathway</a> (Free & Paid) - Solves algebra, geometry, calculus, and more with step-by-step explanations.
+                </li>
+            </ul>
+        </div>
+
+        <!-- English Section -->
+        <div class="subject" data-subject="English">
+            <h2>English Language Arts</h2>
+            <ul>
+                <li>
+                    <a href="https://grammarly.com/" target="_blank">Grammarly</a> (Free & Paid) - AI-powered grammar, spelling, and style checker.
+                </li>
+                <li>
+                    <a href="https://www.quillbot.com/" target="_blank">QuillBot</a> (Free & Paid) - AI-powered paraphrasing and summarizing tool to help students improve writing and reading comprehension.
+                </li>
+                <li>
+                    <a href="https://www.jasper.ai/" target="_blank">Jasper</a> (Paid) - AI content creation and idea generation for creative writing projects.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Science Section -->
+        <div class="subject" data-subject="Science">
+            <h2>Science</h2>
+            <ul>
+                <li>
+                    <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a> (Free) - A platform for personalized learning in science with AI-based progress tracking.
+                </li>
+                <li>
+                    <a href="https://labs.openai.com/" target="_blank">OpenAI DALL-E</a> (Free & Paid) - AI image generator that can help in creating visuals for science concepts.
+                </li>
+                <li>
+                    <a href="https://www.chegg.com/" target="_blank">Chegg</a> (Paid) - Offers homework help, textbook solutions, and AI tutoring across many science subjects.
+                </li>
+            </ul>
+        </div>
+
+        <!-- History Section -->
+        <div class="subject" data-subject="History">
+            <h2>History</h2>
+            <ul>
+                <li>
+                    <a href="https://www.historytoday.com/digital-history-tools" target="_blank">History Today - AI Tools</a> (Free & Paid) - Tools that help explore historical data, maps, and events using AI analysis.
+                </li>
+                <li>
+                    <a href="https://ai.googleblog.com/2020/07/using-ai-to-unlock-1000-year-old-sea.html" target="_blank">Google AI Historical Data</a> (Free) - A project that uses AI to unlock historical documents and create meaningful learning experiences.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Physical Education Section -->
+        <div class="subject" data-subject="Physical Education">
+            <h2>Physical Education</h2>
+            <ul>
+                <li>
+                    <a href="https://fitbod.me/" target="_blank">Fitbod</a> (Paid) - AI-driven fitness app that helps design personalized workout routines.
+                </li>
+                <li>
+                    <a href="https://www.classdojo.com/" target="_blank">ClassDojo</a> (Free) - An app that motivates students to stay active and engage in physical challenges with the help of AI.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Technology Section -->
+        <div class="subject" data-subject="Technology">
+            <h2>Technology</h2>
+            <ul>
+                <li>
+                    <a href="https://scratch.mit.edu/" target="_blank">Scratch</a> (Free) - A visual programming language to teach students the basics of coding through an AI-powered interactive platform.
+                </li>
+                <li>
+                    <a href="https://replit.com/" target="_blank">Replit</a> (Free & Paid) - An online coding environment with AI-assisted debugging and code completion tools.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Social Studies Section -->
+        <div class="subject" data-subject="Social Studies">
+            <h2>Social Studies</h2>
+            <ul>
+                <li>
+                    <a href="https://ed.ted.com/" target="_blank">TED-Ed</a> (Free) - AI-curated lessons from TED talks that enhance understanding of social studies topics.
+                </li>
+                <li>
+                    <a href="https://www.knowledgematters.com/" target="_blank">Knowledge Matters</a> (Paid) - AI-driven simulations for teaching economics and business concepts in the classroom.
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- User Reviews and Feedback Section -->
+    <section class="reviews">
+        <h2>User Reviews and Feedback</h2>
+        <form class="review-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="feedback" rows="5" placeholder="Leave your feedback..." required></textarea>
+            <button type="submit" onclick="submitReview()">Submit Review</button>
+        </form>
+
+        <div id="reviews">
+            <!-- User reviews will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <script>
+        // Search functionality
+        function searchTools() {
+            let input = document.getElementById('search').value.toLowerCase();
+            let subjects = document.querySelectorAll('.subject');
+            
+            subjects.forEach(function(subject) {
+                let subjectTitle = subject.querySelector('h2').innerText.toLowerCase();
+                if (subjectTitle.includes(input) || subject.innerText.toLowerCase().includes(input)) {
+                    subject.style.displayfunction searchTools() {
+    let input = document.getElementById('search').value.toLowerCase();
+    let subjects = document.querySelectorAll('.subject');
+    
+    subjects.forEach(function(subject) {
+        let subjectTitle = subject.querySelector('h2').innerText.toLowerCase();
+        if (subjectTitle.includes(input) || subject.innerText.toLowerCase().includes(input)) {
+            subject.style.display = '';
+        } else {
+            subject.style.display = 'none';
+        }
+    });
+}function submitReview() {
+    event.preventDefault();
+    let name = document.getElementById('name').value;
+    let feedback = document.getElementById('feedback').value;
+
+    if (name && feedback) {
+        let reviewDiv = document.createElement('div');
+        reviewDiv.style.border = '1px solid #ccc';
+        reviewDiv.style.padding = '10px';
+        reviewDiv.style.margin = '10px 0';
+        
+        let reviewerName = document.createElement('h4');
+        reviewerName.innerText = name;
+
+        let reviewerFeedback = document.createElement('p');
+        reviewerFeedback.innerText = feedback;
+
+        reviewDiv.appendChild(reviewerName);
+        reviewDiv.appendChild(reviewerFeedback);
+
+        document.getElementById('reviews').appendChild(reviewDiv);
+
+        // Clear input fields
+        document.getElementById('name').value = '';
+        document.getElementById('feedback').value = '';
+    } else {
+        alert('Please fill in both your name and feedback.');
+    }
+}
